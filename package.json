@@ -1,0 +1,9 @@
+{
+  "name": "portfolio-resend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "api/send.js",
+  "dependencies": {
+    "resend": "^3.2.0"
+  }
+}
