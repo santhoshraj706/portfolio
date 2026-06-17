@@ -445,7 +445,7 @@ section { padding: 8rem 8%; position: relative; z-index: 10; scroll-margin-top: 
 /* PROJECTS SECTION */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
 }
 .project-card {
@@ -664,6 +664,7 @@ footer span { color: var(--accent); font-weight: 600; }
 @media (max-width: 1024px) {
   .about-grid { grid-template-columns: 1fr; gap: 4rem; }
   .project-card.featured { grid-column: span 1; }
+  .projects-grid { grid-template-columns: 1fr; }
   .timeline-item { grid-template-columns: 1fr; gap: 1rem; }
   .timeline-item::before { left: 0; top: 0; margin-left: 0; }
   .hero-stats { flex-wrap: wrap; justify-content: center; }
